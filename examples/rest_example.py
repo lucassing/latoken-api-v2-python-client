@@ -6,7 +6,7 @@ from latoken.client import LatokenClient
 # Firstly, we create a client object.
 latoken = LatokenClient()
 # OR (if you want to use private endpoints, you will need to provide apiKey and apiSecret arguments)
-# latoken = LatokenClient(apiKey = apiKey, apiSecret = apiSecret)
+# latoken = LatokenClient(apiKey = apiKey, apiSecret = bytes(apiSecret, "UTF-8"))
 
 
 # Secondly, we get information from LATOKEN.
